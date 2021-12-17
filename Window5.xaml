@@ -1,0 +1,27 @@
+﻿<Window x:Class="登录页面.Window5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:登录页面"
+        mc:Ignorable="d"
+        Title="注塑车间监测系统" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="OIP (3).jpg"/>
+        </Grid.Background>
+        <Label Content="车间选择" HorizontalAlignment="Left" Margin="28,10,0,0" VerticalAlignment="Top" Width="204" Height="57" FontSize="36" FontWeight="Bold" FontStyle="Italic"/>
+        <Button Content="1号车间" HorizontalAlignment="Left" Margin="28,72,0,0" VerticalAlignment="Top" Width="92" Height="49" FontSize="18" FontWeight="Bold" Background="{x:Null}" Click="Button_Click_1"/>
+        <Button Content="3号车间" HorizontalAlignment="Left" Margin="333,72,0,0" VerticalAlignment="Top" Width="92" Height="47" FontSize="18" Background="{x:Null}" FontWeight="Bold"/>
+        <Button Content="2号车间" HorizontalAlignment="Left" Margin="181,74,0,0" VerticalAlignment="Top" Width="92" Height="47" Background="{x:Null}" FontSize="18" FontWeight="Bold"/>
+        <Button Content="4号车间" HorizontalAlignment="Left" Margin="472,76,0,0" VerticalAlignment="Top" Width="92" Height="47" FontSize="18" FontWeight="Bold" Background="{x:Null}"/>
+        <Button Content="5号车间" HorizontalAlignment="Left" Margin="624,76,0,0" VerticalAlignment="Top" Width="92" Height="47" Background="{x:Null}" FontSize="18" FontWeight="Bold"/>
+        <Button Content="6号车间" HorizontalAlignment="Left" Margin="28,165,0,0" VerticalAlignment="Top" Width="92" Height="47" FontSize="18" FontWeight="Bold" Background="{x:Null}"/>
+        <Button Content="7号车间" HorizontalAlignment="Left" Margin="181,168,0,0" VerticalAlignment="Top" Width="92" Height="47" FontSize="18" FontWeight="Bold" Background="{x:Null}"/>
+        <Label Content="正在建造" HorizontalAlignment="Left" Margin="28,217,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <Label Content="正在建造" HorizontalAlignment="Left" Margin="181,220,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <Label Content="等待加入........" HorizontalAlignment="Left" Margin="333,181,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <Button Content="返回主页面" HorizontalAlignment="Left" Margin="28,287,0,0" VerticalAlignment="Top" Width="123" Height="58" FontSize="20" FontWeight="Bold" Background="{x:Null}" Click="Button_Click"/>
+
+    </Grid>
+</Window>
